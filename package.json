@@ -1,0 +1,60 @@
+{
+  "dependencies": {
+    "@devextreme/runtime": "3.0.12",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "devexpress-diagram": "2.2.5",
+    "devexpress-gantt": "4.1.54",
+    "devextreme": "23.2.6",
+    "devextreme-cldr-data": "1.0.3",
+    "devextreme-quill": "1.6.4",
+    "devextreme-react": "23.2.6",
+    "es6-object-assign": "1.1.0",
+    "inferno": "7.4.11",
+    "inferno-clone-vnode": "latest",
+    "inferno-compat": "latest",
+    "inferno-create-class": "latest",
+    "inferno-create-element": "7.4.11",
+    "inferno-dom": "latest",
+    "inferno-extras": "latest",
+    "inferno-hydrate": "7.4.11",
+    "jszip": "3.10.1",
+    "luxon": "1.28.1",
+    "prettier": "2.8.4",
+    "prop-types": "15.8.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "5.0.1",
+    "rrule": "2.6.4",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build-themes": "devextreme build",
+    "postinstall": "npm run build-themes"
+  },
+  "description": "If the DataGrid component is bound to a large dataset, you can enable the virtual scroll feature to optimize data load times and improve user navigation. The component calculates the overall number of visible rows and displays a scrollbar that allows users to navigate to any section of rows. When users release the scroll thumb, the control loads records to be displayed in the viewport and removes other rows from memory.\nTo allow users to scroll the DataGrid virtually, set the scrolling.mode to \"virtual\".\nIn this demo, the DataGrid is bound to a local dataset of 100,000 records. You can drag the scrollbar on the right to see that records within the viewport are updated immediately.\n",
+  "name": "",
+  "devDependencies": {
+    "devextreme-cli": "1.6.9",
+    "devextreme-themebuilder": "23.2.6"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "plugins": [
+    "@babel/transform-object-rest-spread"
+  ]
+}
